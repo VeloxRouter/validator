@@ -1,0 +1,26 @@
+# Dependencies
+/vendor/
+
+# IDEs and Editors (VS Code, PhpStorm, etc.)
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing and Coverage
+/phpunit.xml
+.phpunit.cache/
+/coverage/
+.test-result/
+
+# Composer lock (libraries usually don't track composer.lock, but you can remove this line if you want to lock dependencies)
+composer.lock
