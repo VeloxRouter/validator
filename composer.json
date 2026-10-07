@@ -1,0 +1,15 @@
+{
+    "name": "veloxrouter/validator",
+    "description": "A high-performance, zero-dependency validation engine for PHP 8.2+.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "VeloxRouter\\Validator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
